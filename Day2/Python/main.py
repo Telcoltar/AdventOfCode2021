@@ -7,7 +7,7 @@ import logging
 #                     format="%(asctime)s %(levelname)s %(threadName)s %(name)s: %(message)s",
 #                     )
 
-logging.basicConfig(filename="test.log", level=logging.INFO)
+logging.basicConfig(filename="test.log", filemode="w", level=logging.INFO)
 
 logging.info("Hi")
 
