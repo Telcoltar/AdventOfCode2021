@@ -1,15 +1,11 @@
 from typing import Tuple, List
 import logging
 
-# logging.basicConfig(filename="log.log",
-#                     filemode="w",
-#                     level=logging.INFO,
-#                     format="%(asctime)s %(levelname)s %(threadName)s %(name)s: %(message)s",
-#                     )
-
-logging.basicConfig(filename="test.log", filemode="w", level=logging.INFO)
-
-logging.info("Hi")
+logging.basicConfig(filename="log.log",
+                    filemode="w",
+                    level=logging.INFO,
+                    format="%(asctime)s %(levelname)s %(threadName)s %(name)s: %(message)s",
+                    )
 
 
 def get_input(filename: str) -> List[Tuple[str, int]]:
